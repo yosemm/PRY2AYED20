@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>UrMusic - Recomendaciones de música</title>
+    <meta charset="UTF-8">
+    <link href="../static/style.css" rel="stylesheet" type="text/css">
+    <link href="../static/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="../static/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="../static/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="../static/favicon/site.webmanifest" rel="manifest">
+</head>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('form').on('submit', function (event) {
+            event.preventDefault();
+
+            var artist_name = $('#site-search').val();
+
+            $.ajax({
+                url: 'http://127.0.0.1:5000/search',
+                method: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({term: artist_name}),
+                success: function (data) {
+                    window.location.href = 'http://127.0.0.1:5000/resultados?artist=' + encodeURIComponent(data.term);
+                }
+            });
+        });
+    });
+</script>
+
+<div class="background" style="z-index: -1;">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+<header>
+    <h1>UrMusic✧</h1>
+    <h2>Encuentra recomendaciones perfectas para ti.</h2>
+</header>
+
+<form action="">
+    <input aria-label="Busca artistas o canciones preferidas" id="site-search" name="q"
+           placeholder="Ingresa tu artista preferido o canción..."
+           type="search">
+    <select name="search_type" id="search-type">
+        <option value="artist">Artista</option>
+        <option value="song">Canción</option>
+    </select>
+    <button type="submit">
+        <img alt="Search" src="../static/Icons/search-icon.svg" style="height: 24px;">
+    </button>
+</form>
+</body>
+</html>

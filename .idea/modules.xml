@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PRY2AYED20.iml" filepath="$PROJECT_DIR$/.idea/PRY2AYED20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../UrMusicWithSpotifyAPI/.idea/UrMusicWithSpotifyAPI.iml" filepath="$PROJECT_DIR$/../UrMusicWithSpotifyAPI/.idea/UrMusicWithSpotifyAPI.iml" />
     </modules>
   </component>
 </project>

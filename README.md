@@ -21,3 +21,4 @@ Para el backend, todo se localiza en el archivo recommendation_system.py, que se
 1. Run el archivo programaprincipal.py. 
 2. Abre el archivo index.html en tu navegador.
 3. ¡Listo! Ya puedes buscar un artista y recibir recomendaciones.
+4. Al parar el script programaprincipal.py, ya no funcionarán las recomendaciones. 

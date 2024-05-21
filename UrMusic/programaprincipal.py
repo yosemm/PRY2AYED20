@@ -19,6 +19,7 @@ recommendation_system = RecommendationSystem()
 
 @app.route('/')
 def index():
+
     css_url = url_for('static', filename='style.css')
     favicon_url = url_for('static', filename='static/favicon/apple-touch-icon.png')
     return render_template('index.html', css_url=css_url, favicon_url=favicon_url)

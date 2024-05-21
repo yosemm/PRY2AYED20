@@ -17,7 +17,7 @@
         $('form').on('submit', function (event) {
             event.preventDefault();
 
-            var artist_name = $('#site-search').val();
+            let artist_name = $('#site-search').val();
 
             $.ajax({
                 url: 'http://127.0.0.1:5000/search',
@@ -62,7 +62,7 @@
     <input aria-label="Busca artistas o canciones preferidas" id="site-search" name="q"
            placeholder="Ingresa tu artista preferido o canción..."
            type="search">
-    <select name="search_type" id="search-type">
+    <label for="search-type"></label><select name="search_type" id="search-type">
         <option value="artist">Artista</option>
         <option value="song">Canción</option>
     </select>

@@ -1,0 +1,197 @@
+Column1;Column2;Column3;Column4;Column5;Column6;Column7;Column8;Column9
+ARTIST;LOCATION;POPULAR_SONG;MOOD;GENRE;INFLUENCED_BY;COLLABORATED_WITH;STYLE;DECADE
+Taylor Swift;Estados Unidos;Blank Space;Enamorado;Pop;Shania Twain;Ed Sheeran, Kendrick Lamar;Pop country;2000s
+Dua Lipa;Reino Unido;Levitating;Bailarin;Pop;Madonna;Elton John, Post Malone;Pop;2010s
+Olivia Rodrigo;Estados Unidos;drivers license;Triste;Pop;Taylor Swift;Billy Eilish, Joshua Bassett;Pop rock;2020s
+Billie Eilish;Estados Unidos;bad guy;Enojado;Pop;Lana Del Rey;Khalid, Travis Scott;Pop alternativo;2010s
+Ariana Grande;Estados Unidos;Thank U, Next;Triste;Pop;Mariah Carey;Nicki Minaj, John Legend;Pop R&B;2010s
+Justin Bieber;Canada;Love Yourself;Enamorado;Pop;Michael Jackson;Ed Sheeran, Diplo;Pop R&B;2000s
+The Weeknd;Canada;Blinding Lights;Bailarin;Pop;Michael Jackson;Daft Punk, Kendrick Lamar;Synthpop;2010s
+Selena Gomez;Estados Unidos;Lose You to Love Me;Triste;Pop;Britney Spears;Demi Lovato, Marshmello;Pop electronico;2010s
+Shawn Mendes;Canada;Stitches;Enamorado;Pop;Ed Sheeran;Camila Cabello, Zedd;Pop rock;2010s
+Camila Cabello;Cuba;Havana;Bailarin;Pop;Shakira;Pitbull, Pharrell Williams;Pop latino;2010s
+Miley Cyrus;Estados Unidos;Wrecking Ball;Triste;Pop;Christina Aguilera;Liam Hemsworth, Mark Ronson;Pop rock;2010s
+Katy Perry;Estados Unidos;Roar;Bailarin;Pop;Madonna;Nicki Minaj, John Legend;Pop;2010s
+Demi Lovato;Estados Unidos;Skyscraper;Triste;Pop;Christina Aguilera;Nick Jonas, Guillermo del Toro;Pop rock;2010s
+Lady Gaga;Estados Unidos;Bad Romance;Bailarin;Pop;Michael Jackson;Beyonce, Tony Bennett;Pop electronico;2000s
+Bruno Mars;Estados Unidos;Uptown Funk;Bailarin;Pop;Michael Jackson;Mark Ronson, Cardi B;Pop funk;2010s
+Adele;Reino Unido;Rolling in the Deep;Triste;Pop;Etta James;Beyonce, Tobias Jesso Jr.;Soul;2010s
+Sam Smith;Reino Unido;Stay with Me;Triste;Pop;Donny Hathaway;Mary J. Blige, Jimmy Napes;Pop soul;2010s
+Ed Sheeran;Reino Unido;Shape of You;Bailarin;Pop;Van Morrison;Beyonce, Khalid;Pop folk;2010s
+Harry Styles;Reino Unido;Sign of the Times;Bailarin;Pop;David Bowie;Florence Welch, Shania Twain;Pop rock;2010s
+Ricky Martin;Puerto Rico;Livin' la Vida Loca;Bailarin;Latin Pop;Menudo;Jennifer Lopez, Christina Aguilera;Pop latino;1990s
+Shakira;Colombia;Hips Don't Lie;Bailarin;Latin Pop;Carlos Vives;Wyclef Jean, Beyonce;Pop latino;2000s
+Enrique Iglesias;España;Bailamos;Bailarin;Latin Pop;Julio Iglesias;Pitbull, Sean Paul;Pop latino;1990s
+J Balvin;Colombia;Mi Gente;Bailarin;Latin Pop;Daddy Yankee;Beyonce, Willy William;Reggaeton, Pop latino;2010s
+Bad Bunny;Puerto Rico;Caribeño;Bailarin;Latin Pop;Daddy Yankee;Drake, Cardi B;Trap latino, Pop latino;2010s
+Daddy Yankee;Puerto Rico;Gasolina;Bailarin;Reggaeton;Bob Marley;Nicki Minaj, Luis Fonsi;Reggaeton clasico;2000s
+Don Omar;Puerto Rico;Danza Kuduro;Bailarin;Reggaeton;Elvis Presley;Lucenzo, Akon;Reggaeton electronico;2000s
+Wisin & Yandel;Puerto Rico;Noches de Bohemia;Enamorado;Reggaeton;Hector Lavoe;Romeo Santos, Christina Aguilera;Reggaeton romantico;2000s
+Maluma;Colombia;Felices los 4;Bailarin;Reggaeton;Daddy Yankee;Shakira, The Weeknd;Reggaeton pop;2010s
+Karol G;Colombia;Tusa;Bailarin;Reggaeton;Shakira;Nicki Minaj, Ozuna;Pop latino urbano;2010s
+Miles Davis;Estados Unidos;So What;Bailarin;Jazz;Charlie Parker;John Coltrane, Herbie Hancock;Jazz modal;1950s
+John Coltrane;Estados Unidos;My Favorite Things;Enamorado;Jazz;Miles Davis;McCoy Tyner, Elvin Jones;Jazz hard bop;1960s
+Ella Fitzgerald;Estados Unidos;It Don't Mean a Thing (If It Ain't Got That Swing);Bailarin;Jazz;Billie Holiday;Count Basie, Duke Ellington;Jazz swing;1930s
+Billie Holiday;Estados Unidos;Strange Fruit;Triste;Jazz;Bessie Smith;Thelonious Monk, Charlie Parker;Jazz vocal;1930s
+Louis Armstrong;Estados Unidos;What a Wonderful World;Enamorado;Jazz;Jelly Roll Morton;Ella Fitzgerald, Bing Crosby;Jazz Dixieland;1920s
+Ludwig van Beethoven;Alemania;Für Elise;Triste;Clasico;Wolfgang Amadeus Mozart;Franz Liszt, Johannes Brahms;Periodo clasico;1800s
+Wolfgang Amadeus Mozart;Austria;Eine kleine Nachtmusik;Bailarin;Clasico;Johann Sebastian Bach;Ludwig van Beethoven, Antonio Salieri;Periodo clasico;1700s
+Johann Sebastian Bach;Alemania;Air on the G String;Triste;Clasico;Antonio Vivaldi;Carl Philipp Emanuel Bach, Johann Christoph Bach;Barroco;1700s
+Frederic Chopin;Polonia;Nocturne in E-flat Major, Op. 9 No. 2;Triste;Clasico;Franz Schubert;Franz Liszt, Sergei Rachmaninoff;Romanticismo;1800s
+Pyotr Ilyich Tchaikovsky;Rusia;El Cascanueces;Bailarin;Clasico;Mikhail Glinka;Maurice Ravel, Igor Stravinsky;Romanticismo;1800s
+Nirvana;Estados Unidos;Smells Like Teen Spirit;Enojado;Alternativo;The Pixies;Pearl Jam, Foo Fighters;Grunge;1990s
+Radiohead;Reino Unido;Creep;Triste;Alternativo;The Smiths;Thom Yorke, Jonny Greenwood;Rock alternativo;1990s
+Arctic Monkeys;Reino Unido;I Bet You Look Good on the Dancefloor;Bailarin;Alternativo;The Strokes;Miles Kane, Alex Turner;Indie rock;2000s
+The Strokes;Estados Unidos;Last Nite;Bailarin;Alternativo;The Velvet Underground;Yeah Yeah Yeahs, Interpol;Garage rock;2000s
+Foo Fighters;Estados Unidos;Everlong;Triste;Alternativo;Nirvana;Taylor Hawkins, Nate Mendel;Rock alternativo;1990s
+Romeo Santos;Republica Dominicana;Propuesta Indecente;Enamorado;Bachata;Juan Luis Guerra;Luis Vargas, Nicki Minaj;Bachata moderna;2000s
+Prince Royce;Estados Unidos;El Aroma de Ti;Enamorado;Bachata;Luis Miguel;Daddy Yankee, Shakira;Bachata pop;2010s
+Juan Luis Guerra;Republica Dominicana;Burbujas de Amor;Enamorado;Bachata;Ramon Orlando;Enrique Iglesias, Romeo Santos;Bachata tradicional;1990s
+Aventura;Republica Dominicana;Obsesion;Enamorado;Bachata;Juan Luis Guerra;Don Omar, Wisin & Yandel;Bachata urbana;2000s
+Monchy & Daddy;Republica Dominicana;Capricho de Mujer;Enamorado;Bachata;Aventura;Natti Natasha, Daddy Yankee;Bachata urbana;2000s
+Daft Punk;Francia;One More Time;Bailarin;Electronica;Kraftwerk;The Weeknd, Pharrell Williams;Electro house;1990s
+Skrillex;Estados Unidos;Scary Monsters and Nice Sprites;Bailarin;Electronica;Deadmau5;Diplo, Justin Bieber;Dubstep;2010s
+Calvin Harris;Reino Unido;We Found Love;Bailarin;Electronica;David Guetta;Rihanna, Dua Lipa;Electropop;2010s
+Avicii;Suecia;Wake Me Up;Bailarin;Electronica;Tiësto;Aloe Blacc, Nicky Romero;Progressive house;2010s
+David Guetta;Francia;When I'm Gone;Bailarin;Electronica;Bob Sinclar;Kelly Rowland, Sia;Electro house;2000s
+BTS;Corea del Sur;Dynamite;Bailarin;K-Pop;Seo Taiji and Boys;Halsey, Nicki Minaj;Pop dance, EDM;2010s
+Blackpink;Corea del Sur;Ddu-Du Ddu-Du;Bailarin;K-Pop;2NE1;Dua Lipa, Lady Gaga;K-Pop, EDM;2010s
+Twice;Corea del Sur;Cheer Up;Bailarin;K-Pop;Girls' Generation;Sana Minatozaki, Momo Hirai;Bubblegum pop, J-Pop;2010s
+Red Velvet;Corea del Sur;Red Flavor;Bailarin;K-Pop;S.E.S.;Selena Gomez, NCT Dream;Electropop, Bubblegum pop;2010s
+EXO;Corea del Sur;Growl;Bailarin;K-Pop;Super Junior;ZTao, Chen;R&B, Electronic dance music;2010s
+The Beatles;Reino Unido;Hey Jude;Enamorado;Rock;Elvis Presley;The Rolling Stones, Elton John;Rock and roll;1960s
+The Rolling Stones;Reino Unido;(I Can't Get No) Satisfaction;Enojado;Rock;Chuck Berry;Eric Clapton, Jimmy Page;Rock and roll, Blues rock;1960s
+Led Zeppelin;Reino Unido;Stairway to Heaven;Triste;Rock;The Beatles;Black Sabbath, Deep Purple;Hard rock, Heavy metal;1970s
+Queen;Reino Unido;Bohemian Rhapsody;Triste;Rock;The Beatles;David Bowie, Elton John;Rock progresivo, Glam rock;1970s
+Pink Floyd;Reino Unido;Wish You Were Here;Triste;Rock;The Beatles;Radiohead, Coldplay;Rock progresivo, Rock psicodelico;1970s
+Arcade Fire;Canada;Wake Up;Bailarin;Indie;The Smiths;David Bowie, Win Butler;Indie rock, Rock alternativo;2000s
+The Lumineers;Estados Unidos;Ho Hey;Bailarin;Indie;Mumford & Sons;Hozier, Nathaniel Rateliff;Folk rock, Americana;2010s
+Bon Iver;Estados Unidos;Skinny Love;Triste;Indie;Sufjan Stevens;Justin Vernon, Bruce Springsteen;Indie folk, Experimental rock;2000s
+Vampire Weekend;Estados Unidos;A-Punk;Bailarin;Indie;The Strokes;Paul Simon, Haim;Indie rock, Indie pop;2000s
+St. Vincent;Estados Unidos;Cruel;Bailarin;Indie;David Bowie;Annie Clark, Jack Antonoff;Art rock, Experimental rock;2000s
+Lil Nas X;Estados Unidos;"""Montero (Call Me by Your Name)""";LGBT;Pop;Kanye West;Miley Cyrus, Elton John;Pop Rap;2010s
+Todrick Hall;Estados Unidos;"""Nails, Hair, Hips, Heels""";LGBT;Pop;Beyonce;Ariana Grande, Ciara;Pop;2010s
+Kim Petras;Alemania;"""Coconuts""";LGBT;Pop;Britney Spears;Charli XCX, Allie X;Electropop;2010s
+Years & Years;Reino Unido;"""Shine""";LGBT;Indie;Elton John;Carly Rae Jepsen, Kylie Minogue;Synthpop;2010s
+Olly Murs;Reino Unido;"""Kiss Me""";LGBT;Pop;Robbie Williams;Demi Lovato, Cher;Pop;2010s
+Sam Smith;Reino Unido;"""Stay with Me""";LGBT;Pop;Adele;Normani, Lizzo;Pop;2010s
+Troye Sivan; Australia;"""Blinding Lights""";LGBT;Pop;The Weeknd;Charli XCX, Ariana Grande;Synthpop;2010s
+Frank Ocean;Estados Unidos;"""Thinkin Bout You""";LGBT;Alternativo;Stevie Wonder;Beyonce, Calvin Harris;R&B;2010s
+Kehlani;Estados Unidos;"""Nights Like This""";LGBT;Alternativo;Aaliyah;Bryson Tiller, ZHU;R&B;2010s
+MNEK;Reino Unido;"""Pray for Me""";LGBT;Pop;Whitney Houston;Dua Lipa, Little Mix;Pop;2010s
+Blackpink;South Korea;How You Like That;Bailarin;K-pop;2NE1;Lady Gaga;Pop;2020s
+EXO;South Korea;Love Shot;Enamorado;K-pop;SHINee;Baekhyun;Pop;2010s
+Twice;South Korea;Feel Special;Bailarin;K-pop;Wonder Girls;Itzy;Pop;2010s
+Red Velvet;South Korea;Psycho;Enamorado;K-pop;f(x);Irene;Pop;2010s
+Seventeen;South Korea;Very Nice;Bailarin;K-pop;SHINee;Gfriend;Pop;2010s
+NCT 127;South Korea;Cherry Bomb;Bailarin;K-pop;Super Junior;NCT U;Pop;2010s
+ITZY;South Korea;WANNABE;Bailarin;K-pop;Miss A;Stray Kids;Pop;2020s
+Stray Kids;South Korea;God's Menu;Bailarin;K-pop;BTS;TXT;Pop;2020s
+Gfriend;South Korea;MAGO;Bailarin;K-pop;Apink;Seventeen;Pop;2020s
+Mamamoo;South Korea;Hip;Bailarin;K-pop;Brown Eyed Girls;Hwasa;Pop;2010s
+TXT;South Korea;Crown;Bailarin;K-pop;BTS;Seventeen;Pop;2010s
+SHINee;South Korea;Ring Ding Dong;Bailarin;K-pop;Super Junior;EXO;Pop;2000s
+Super Junior;South Korea;Sorry Sorry;Bailarin;K-pop;TVXQ;SHINee;Pop;2000s
+Psy;South Korea;Gangnam Style;Bailarin;K-pop;Seo Taiji;BTS;Pop;2010s
+The Neighbourhood;USA;Sweater Weather;Triste;Alternative;Arctic Monkeys;Lana Del Rey;Indie Rock;2010s
+Chase Atlantic;Australia;Swim;Enamorado;Alternative;The Weeknd;The 1975;Alternative R&B;2010s
+Arctic Monkeys;UK;Do I Wanna Know?;Enamorado;Alternative;The Strokes;Alex Turner;Indie Rock;2010s
+The 1975;UK;Somebody Else;Triste;Alternative;Talking Heads;Halsey;Synth Pop;2010s
+Foster the People;USA;Pumped Up Kicks;Enamorado;Alternative;MGMT;Imagine Dragons;Indie Pop;2010s
+Cage the Elephant;USA;Cigarette Daydreams;Triste;Alternative;The Strokes;Arctic Monkeys;Indie Rock;2010s
+Tame Impala;Australia;The Less I Know the Better;Enamorado;Alternative;MGMT;Mark Ronson;Psychedelic Pop;2010s
+Twenty One Pilots;USA;Stressed Out;Triste;Alternative;My Chemical Romance;Halsey;Electropop;2010s
+Imagine Dragons;USA;Believer;Enojado;Alternative;Linkin Park;Kendrick Lamar;Pop Rock;2010s
+Glass Animals;UK;Heat Waves;Enamorado;Alternative;Alt-J;Tame Impala;Indie Pop;2020s
+Panic! At The Disco;USA;I Write Sins Not Tragedies;Enamorado;Alternative;My Chemical Romance;Brendon Urie;Pop Punk;2000s
+The Strokes;USA;Last Nite;Enamorado;Alternative;The Velvet Underground;Julian Casablancas;Garage Rock;2000s
+LANY;USA;ILYSB;Enamorado;Alternative;The 1975;Chase Atlantic;Indie Pop;2010s
+Paramore;USA;Misery Business;Enamorado;Alternative;No Doubt;Hayley Williams;Pop Punk;2000s
+MGMT;USA;Kids;Enamorado;Alternative;Flaming Lips;Daft Punk;Psychedelic Pop;2000s
+Queen;UK;Bohemian Rhapsody;Enamorado;Rock;David Bowie;Freddie Mercury;Classic Rock;1970s
+Fleetwood Mac;UK;Go Your Own Way;Enamorado;Rock;The Eagles;Stevie Nicks;Classic Rock;1970s
+The Beatles;UK;Hey Jude;Enamorado;Rock;Elvis Presley;The Rolling Stones;Classic Rock;1960s
+The Rolling Stones;UK;Paint It Black;Enojado;Rock;Chuck Berry;The Beatles;Classic Rock;1960s
+Led Zeppelin;UK;Stairway to Heaven;Enamorado;Rock;The Yardbirds;The Who;Hard Rock;1970s
+Pink Floyd;UK;Comfortably Numb;Triste;Rock;Syd Barrett;David Bowie;Psychedelic Rock;1970s
+The Who;UK;Baba O'Riley;Enamorado;Rock;The Kinks;Led Zeppelin;Classic Rock;1970s
+Aerosmith;USA;Dream On;Enamorado;Rock;Led Zeppelin;Run-D.M.C.;Hard Rock;1970s
+The Eagles;USA;Hotel California;Enamorado;Rock;Crosby Stills & Nash;Fleetwood Mac;Classic Rock;1970s
+AC/DC;Australia;Back in Black;Enojado;Rock;Led Zeppelin;Deep Purple;Hard Rock;1980s
+Deep Purple;UK;Smoke on the Water;Enojado;Rock;Led Zeppelin;Black Sabbath;Hard Rock;1970s
+Black Sabbath;UK;Paranoid;Enojado;Rock;Led Zeppelin;Deep Purple;Heavy Metal;1970s
+The Doors;USA;Light My Fire;Enamorado;Rock;The Rolling Stones;Jimi Hendrix;Psychedelic Rock;1960s
+Jimi Hendrix;USA;Purple Haze;Enamorado;Rock;Chuck Berry;The Beatles;Psychedelic Rock;1960s
+Lynyrd Skynyrd;USA;Free Bird;Enamorado;Rock;The Allman Brothers Band;The Eagles;Southern Rock;1970s
+One Direction;UK;What Makes You Beautiful;Enamorado;Pop;Take That;Justin Bieber;Teen Pop;2010s
+Backstreet Boys;USA;I Want It That Way;Enamorado;Pop;New Kids on the Block;N Sync;Teen Pop;1990s
+N Sync;USA;Bye Bye Bye;Bailarin;Pop;Backstreet Boys;Justin Timberlake;Teen Pop;1990s
+Take That;UK;Back for Good;Enamorado;Pop;New Kids on the Block;Robbie Williams;Pop;1990s
+New Kids on the Block;USA;Step by Step;Bailarin;Pop;The Jackson 5;Backstreet Boys;Teen Pop;1980s
+Big Time Rush;USA;Boyfriend;Bailarin;Pop;Backstreet Boys;One Direction;Teen Pop;2010s
+Westlife;Ireland;Uptown Girl;Bailarin;Pop;Take That;Backstreet Boys;Pop;2000s
+Boyz II Men;USA;End of the Road;Triste;R&B;The Jackson 5;New Edition;Contemporary R&B;1990s
+Jonas Brothers;USA;Burnin' Up;Bailarin;Pop;Hanson;Demi Lovato;Pop Rock;2000s
+All Time Low;USA;Dear Maria Count Me In;Enamorado;Rock;Blink-182;Fall Out Boy;Pop Punk;2000s
+Sleeping With Sirens;USA;If You Can't Hang;Triste;Rock;Post-Hardcore;Pierce the Veil;Alternative Rock;2010s
+Pierce the Veil;USA;King for a Day;Enojado;Rock;Post-Hardcore;Sleeping With Sirens;Alternative Rock;2010s
+Bring Me The Horizon;UK;Can You Feel My Heart;Triste;Rock;Metalcore;Linkin Park;Alternative Metal;2010s
+Waterparks;USA;Turbulent;Enamorado;Rock;Pop Punk;All Time Low;Pop Rock;2010s
+As It Is;UK;The Wounded World;Enamorado;Rock;Pop Punk;The Maine;Pop Punk;2010s
+Set It Off;USA;Why Worry;Enamorado;Rock;Pop Punk;Panic! At The Disco;Pop Rock;2010s
+Creeper;UK;Black Rain;Enamorado;Rock;Goth Punk;My Chemical Romance;Alternative Rock;2010s
+The Used;USA;The Taste of Ink;Triste;Rock;Emo;My Chemical Romance;Emo;2000s
+Tame Impala;Australia;The Less I Know the Better;Enamorado;Alternative;MGMT;Mark Ronson;Psychedelic Pop;2010s
+Maggie Rogers;USA;Alaska;Enamorado;Pop;Florence Welch;Pharrell Williams;Indie Pop;2010s
+Rex Orange County;UK;Best Friend;Enamorado;Alternative;Tyler; The Creator;Indie Pop;2010s
+Phoebe Bridgers;USA;Motion Sickness;Triste;Alternative;Elliott Smith;Conor Oberst;Indie Folk;2010s
+Mac DeMarco;Canada;Chamber of Reflection;Triste;Alternative;John Maus;Homeshake;Indie Rock;2010s
+Lorde;New Zealand;Royals;Triste;Alternative;David Bowie;Jack Antonoff;Art Pop;2010s
+Anderson .Paak;USA;Come Down;Bailarin;R&B;Stevie Wonder;Kendrick Lamar;Funk;2010s
+Hozier;Ireland;Take Me to Church;Enamorado;Alternative;Van Morrison;Florence Welch;Indie Rock;2010s
+Kali Uchis;USA;Telepatía;Enamorado;Pop;Tyler; The Creator;Latin Pop;2020s
+Japanese Breakfast;USA;Be Sweet;Enamorado;Alternative;Phoebe Bridgers;St. Vincent;Indie Pop;2020s
+The War on Drugs;USA;Red Eyes;Enamorado;Rock;Bruce Springsteen;Wilco;Indie Rock;2010s
+St. Vincent;USA;Digital Witness;Enamorado;Alternative;David Bowie;Jack Antonoff;Art Rock;2010s
+Jorja Smith;UK;Blue Lights;Triste;R&B;Amy Winehouse;Drake;Soul;2010s
+Tash Sultana;Australia;Jungle;Bailarin;Alternative;John Butler Trio;Milky Chance;Indie Rock;2010s
+Run The Jewels;USA;Legend Has It;Enojado;Hip Hop;Public Enemy;Zack de la Rocha;Alternative Hip Hop;2010s
+King Princess;USA;1950;Enamorado;Pop;Prince;Fiona Apple;Indie Pop;2010s
+Clairo;USA;Sofia;Enamorado;Pop;Frank Ocean;Charli XCX;Lo-fi Pop;2010s
+Troye Sivan;Australia;My My My!;Enamorado;Pop;Lorde;Ariana Grande;Electropop;2010s
+MUNA;USA;I Know A Place;Enamorado;Pop;HAIM;Shura;Indie Pop;2010s
+Girl in Red;Norway;We Fell in Love in October;Enamorado;Pop;Clairo;Billie Eilish;Indie Pop;2010s
+Hayley Kiyoko;USA;Curious;Enamorado;Pop;Tegan and Sara;Fletcher;Electropop;2010s
+Sasha Sloan;USA;Dancing With Your Ghost;Triste;Pop;Lorde;Charli XCX;Indie Pop;2010s
+Tove Lo;Sweden;Habits (Stay High);Triste;Pop;Robyn;Elliphant;Electropop;2010s
+Christine and the Queens;France;Tilted;Enamorado;Pop;David Bowie;Charli XCX;Art Pop;2010s
+Fletcher;USA;Undrunk;Enamorado;Pop;Halsey;Hayley Kiyoko;Pop;2010s
+Rina Sawayama;UK;STFU!;Enojado;Pop;Charli XCX;Grimes;Pop Rock;2010s
+Janelle Monáe;USA;Make Me Feel;Enamorado;Pop;Prince;Erykah Badu;Art Pop;2010s
+Florence Welch;UK;Shake It Out;Enamorado;Alternative;Stevie Nicks;The xx;Baroque Pop;2010s
+Zolita;USA;Explosion;Enamorado;Pop;Grimes;King Princess;Indie Pop;2010s
+Phoebe Bridgers;USA;Motion Sickness;Triste;Alternative;Elliott Smith;Conor Oberst;Indie Folk;2010s
+Carlos Vives;Colombia;La Bicicleta;Enamorado;Vallenato;Carlos Santana;Shakira;Vallenato Pop;2010s
+Juanes;Colombia;A Dios le Pido;Enamorado;Rock Latino;Carlos Vives;Shakira;Latin Rock;2000s
+Calle 13;Puerto Rico;Atrevete-te-te;Enamorado;Urban;Residente;Shakira;Latin Alternative;2000s
+Anitta;Brazil;Medicina;Bailarin;Pop;Shakira;J Balvin;Funk Carioca;2010s
+Natti Natasha;Dominican Republic;Criminal;Enamorado;Reggaeton;Daddy Yankee;Ozuna;Reggaeton;2010s
+Mon Laferte;Chile;Tu Falta de Querer;Triste;Rock Latino;Chavela Vargas;Juanes;Latin Rock;2010s
+Becky G;USA;Mayores;Bailarin;Pop;J Balvin;Bad Bunny;Reggaeton;2010
+Madonna;USA;Like a Prayer;Enamorado;Pop;David Bowie;Prince;Pop;1980s
+Cher;USA;Believe;Enamorado;Pop;Elvis Presley;ABBA;Dance Pop;1990s
+RuPaul;USA;Supermodel (You Better Work);Bailarin;Pop;Grace Jones;Elton John;Dance Pop;1990s
+K.D. Lang;Canada;Constant Craving;Enamorado;Country;Patsy Cline;Melissa Etheridge;Country Pop;1990s
+Melissa Etheridge;USA;Come to My Window;Enamorado;Rock;Janis Joplin;K.D. Lang;Rock;1990s
+Boy George;UK;Karma Chameleon;Enamorado;Pop;David Bowie;Elton John;New Wave;1980s
+Ricky Martin;Puerto Rico;Livin' la Vida Loca;Bailarin;Pop;Enrique Iglesias;Shakira;Latin Pop;1990s
+Ricardo Arjona;Guatemala;Sin Ti... Sin Mi;Enamorado;Pop-Rock;Fito Páez;Alejandro Sanz;Latin Pop;1990s
+Gaby Moreno;Guatemala;Se Apagó;Triste;Blues-Folk;Amy Winehouse;Norah Jones;Latin Pop;2010s
+Alux Nahual;Guatemala;La Tristeza de Mis Ojos;Triste;Rock Maya;Maná;Héroes del Silencio;Latin Pop;1980s
+Los Miseria Cumbia Band;Guatemala;La Danza del Petén;Bailarin;Cumbia;Sonora Dinamita;Los Ángeles Azules;Latin Pop;2000s
+Bohemia Suburbana;Guatemala;La Llorona;Triste;Rock Alternativo;La Noche;Azul Violeta;Latin Pop;1990s
+Sara Curruchich;Guatemala;Ch'uti'j Laq'k;Rebelde;Folk-Social;Leon Gieco;Violeta Parra;Latin Pop;2010s
+Los Patanes;Guatemala;Guatemala Pura;Divertido;Ska Punk;Skalariak;Los Auténticos Decadentes;Latin Pop;2000s
+La Tona;Guatemala;Reggaetón Guatemala;Bailarin;Reggaetón;Wisin y Yandel;Daddy Yankee;Latin Pop;2010s
+Viento en Contra;Guatemala;Una Canción de Despedida;Enamorado;Rock;Bohemia Suburbana;Los Miseria Cumbia Band;Latin Pop;2000s
+Aretha Franklin;USA;Respect;Enamorado;Soul;Etta James;Tina Turner;Pop;1960s

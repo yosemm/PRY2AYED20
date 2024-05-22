@@ -16,6 +16,13 @@ El script más importante para el frontend es el archivo programaprincipal.py, q
 
 Para el backend, todo se localiza en el archivo recommendation_system.py, que se encarga de manejar la recomendación de canciones.
 
+Hay 2 archivos HTML en UrMusic/templates que son los que se pueden cambiar para alterar la organización de la página:
+index.html es el de búsqueda y resultados.html es el que te muestra los artistas.
+
+Para cambiar o agregar estilos de los componentes, es el archivo CSS que está en UrMusic/static/style.css
+
+El script que genera los artistas con sus datos en la interfaz es el que está en UrMusic/static/main2.js
+
 ***¿Como correr el programa?:***
 
 1. Run el archivo programaprincipal.py. 

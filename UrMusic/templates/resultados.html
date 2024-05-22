@@ -52,6 +52,19 @@
 <div class="card-container">
     <!-- Este es un contenedor de las cartas de artistas. Las cartas se agregan utilizando el script de js y el programa Python -->
 </div>
-
+<div id="feedback">
+    <p>¿Te gustó esta recomendación?</p>
+    <button id="like-button"><img src="{{ url_for('static', filename='Icons/like-svgrepo-com.svg') }}" alt="Like"
+                                  style="width: 37px; filter: brightness(0) invert(1);"></button>
+    <span id="like-counter">0</span>
+    <button id="dislike-button"><img src="{{ url_for('static', filename='Icons/dislike-svgrepo-com.svg') }}"
+                                     alt="Dislike" style="width: 37px; filter: brightness(0) invert(1);"></button>
+    <span id="dislike-counter">0</span>
+</div>
+<div id="satisfaction-feedback" style="display: flex; justify-content: center; align-items: center;">
+    <span id="satisfaction-percentage">Porcentaje de satisfacción: </span>
+    <span style="margin: 0 10px;">|</span>
+    <a id="feedback-link" href="https://docs.google.com/forms/d/e/your_google_form_link" target="_blank">Enviar comentario</a>
+</div>
 </body>
 </html>

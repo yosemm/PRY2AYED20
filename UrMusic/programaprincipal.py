@@ -1,8 +1,9 @@
 # Esta es una aplicacion usando Flask
 # que permite buscar artistas en Spotify y obtener información sobre ellos.
-import spotipy
 import os
 import sys
+
+import spotipy
 from flask import Flask, url_for
 from flask import request, render_template, jsonify
 from flask_cors import CORS
@@ -13,11 +14,61 @@ sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 
 from PRY2AYED20.src.recommendation_system import RecommendationSystem
 from ScriptsSecundarios.datasearcher import scope
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 CORS(app)
 
 recommendation_system = RecommendationSystem()
+
+basedir = os.path.abspath(os.path.dirname(__file__))
+db_path = os.path.join(basedir, 'databases/satisfactionDatabase.db')
+
+# Ensure the directory exists before creating the database file
+os.makedirs(os.path.dirname(db_path), exist_ok=True)
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_path
+
+db = SQLAlchemy(app)
+
+
+class Counter(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    likes = db.Column(db.Integer, default=0)
+    dislikes = db.Column(db.Integer, default=0)
+
+
+with app.app_context():
+    db.create_all()
+
+with app.app_context():
+    db.create_all()
+    if not Counter.query.first():
+        db.session.add(Counter())
+        db.session.commit()
+
+
+@app.route('/api/counter', methods=['GET', 'POST'])
+def counter():
+    counter = Counter.query.first()
+    if request.method == 'POST':
+        if request.json.get('like') is not None:
+            if request.json.get('like'):
+                counter.likes += 1
+            else:
+                counter.likes -= 1
+        elif request.json.get('dislike') is not None:
+            if request.json.get('dislike'):
+                counter.dislikes += 1
+            else:
+                counter.dislikes -= 1
+        db.session.commit()
+
+    total_votes = counter.likes + counter.dislikes
+    satisfaction_percentage = (counter.likes / total_votes) * 100 if total_votes > 0 else 0
+
+    return jsonify({'likeCounter': counter.likes, 'dislikeCounter': counter.dislikes,
+                    'satisfactionPercentage': satisfaction_percentage})
 
 
 @app.route('/')

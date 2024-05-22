@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ead870e4-2255-4354-a0a8-ac021f2392d5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrMusic/databases/satisfactionDatabase.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrMusic/static/Icons/dislike-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrMusic/static/Icons/instagram-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrMusic/static/Icons/like-svgrepo-com.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScriptsSecundarios/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/ScriptsSecundarios/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrMusic/.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PRY2AYED20/database.csv" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/databases/musicDatabase.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrMusic/.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrMusic/programaprincipal.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/programaprincipal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrMusic/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrMusic/static/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/static/main2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrMusic/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrMusic/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrMusic/templates/resultados.html" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/templates/resultados.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,25 +34,36 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2glwVLGpne8lI6gtfIf9o6UHt3j" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.programaprincipal.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.programaprincipal.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yose\Documents\Java\PRY2AYED20\UrMusic\static\Icons" />
+      <recent name="C:\Users\yose\Documents\Java\PRY2AYED20\UrMusic\databases" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="programaprincipal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PRY2AYED20" />
@@ -96,13 +115,18 @@
       <workItem from="1716289006685" duration="19000" />
       <workItem from="1716344753834" duration="713000" />
       <workItem from="1716345864086" duration="2081000" />
+      <workItem from="1716349986708" duration="4000" />
+      <workItem from="1716349999261" duration="10969000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PRY2AYED20$programaprincipal.coverage" NAME="programaprincipal Coverage Results" MODIFIED="1716347906349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UrMusic" />
+    <SUITE FILE_PATH="coverage/PRY2AYED20$programaprincipal.coverage" NAME="programaprincipal Coverage Results" MODIFIED="1716360704862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UrMusic" />
   </component>
 </project>

@@ -49,4 +49,85 @@ $(document).ready(function () {
             });
         }
     });
+
+    let likeCounter = 0;
+    let dislikeCounter = 0;
+
+    $('#like-button').click(function () {
+        var increment = true;
+        if ($(this).hasClass('clicked')) {
+
+            $(this).removeClass('clicked clicked-like').addClass('unclicked');
+            likeCounter--;
+            increment = false;
+            $('#dislike-button').prop('disabled', false);
+        } else {
+
+            $(this).addClass('clicked clicked-like').removeClass('unclicked');
+            likeCounter++;
+            $('#dislike-button').prop('disabled', true);
+        }
+
+        // Actualizar el contador en el servidor
+        $.ajax({
+            url: '/api/counter',
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({like: increment}),
+            success: function (data) {
+                $('#like-counter').text(data.likeCounter);
+                $('#dislike-counter').text(data.dislikeCounter);
+
+                fetch('/api/counter')
+                    .then(response => response.json())
+                    .then(data => {
+                        $('#satisfaction-percentage').text("Porcentaje de satisfacción: " + data.satisfactionPercentage.toFixed(2) + "%");
+                    });
+            }
+        });
+    });
+
+    $('#dislike-button').click(function () {
+        let increment = true;
+        if ($(this).hasClass('clicked')) {
+
+            $(this).removeClass('clicked clicked-dislike').addClass('unclicked');
+            dislikeCounter--;
+            increment = false;
+            $('#like-button').prop('disabled', false);
+        } else {
+
+            $(this).addClass('clicked clicked-dislike').removeClass('unclicked');
+            dislikeCounter++;
+            $('#like-button').prop('disabled', true);
+        }
+
+        // Actualizar el contador en el servidor
+        $.ajax({
+            url: '/api/counter',
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({dislike: increment}),
+            success: function (data) {
+                $('#like-counter').text(data.likeCounter);
+                $('#dislike-counter').text(data.dislikeCounter);
+
+                fetch('/api/counter')
+                    .then(response => response.json())
+                    .then(data => {
+                        $('#satisfaction-percentage').text("Porcentaje de satisfacción: " + data.satisfactionPercentage.toFixed(2) + "%");
+                    });
+            }
+        });
+    });
+
+
+    fetch('/api/counter')
+        .then(response => response.json())
+        .then(data => {
+            $('#like-counter').text(data.likeCounter);
+            $('#dislike-counter').text(data.dislikeCounter);
+            $('#satisfaction-percentage').text("Porcentaje de satisfacción: " + data.satisfactionPercentage.toFixed(2) + "%");
+        });
+
 });

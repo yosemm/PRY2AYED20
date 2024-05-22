@@ -53,8 +53,8 @@ form {
 }
 
 #search-type option {
-    color: rgb(178, 152, 158); /* Lighter text color with some transparency */
-    background-color: #562b38; /* Background color with some transparency */
+    color: rgb(178, 152, 158);
+    background-color: #562b38;
 }
 
 input[type="search"]::placeholder {
@@ -117,8 +117,8 @@ h3 {
     font-family: 'Space Grotesk', sans-serif;
     letter-spacing: -1px;
     font-weight: 600;
-    margin-top: 20vh;
-    margin-bottom: 15px;
+    margin-top: 18vh;
+    margin-bottom: 10px;
     font-size: calc(28px + 0.2vw);
     background: linear-gradient(-45deg, #ac4949, #9c7765, #d68686);
     background-size: 600% 600%;
@@ -243,6 +243,97 @@ h3 {
     100% {
         transform: translate3d(0, 0, 1px) rotate(360deg);
     }
+}
+
+#feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#feedback button.clicked-like {
+    background: linear-gradient(to right, #000428, #004e92);
+}
+
+#feedback button.clicked-like:hover {
+    background: linear-gradient(to right, #000428, #004e92);
+}
+
+#feedback button.clicked-dislike {
+    background: linear-gradient(to left, #2b1010, #411d28);
+}
+
+#feedback button.clicked-dislike:hover {
+    background: linear-gradient(to left, #2b1010, #411d28);
+}
+
+.unclicked {
+    background-color: #2b2b2b;
+}
+
+#feedback p, #feedback span {
+    font-size: 1.2em;
+    color: #ffffff;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#satisfaction-feedback {
+    color: #c7c7c7;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: calc(14px + 0.2vw);
+}
+
+#satisfaction-feedback a {
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+#satisfaction-feedback a:hover {
+    color: #b0b0b0;
+}
+
+#feedback button {
+    background: linear-gradient(to right, #2b2b2b, #4f4f4f);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    transition: background 0.3s ease;
+}
+
+#feedback button:hover {
+    background: linear-gradient(to right, #4f4f4f, #2b2b2b);
+}
+
+#follow-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 15vh;
+    width: 100%;
+    color: #bdbdbd;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: calc(17px + 0.2vw);
+}
+
+#follow-us p {
+    margin-right: 10px;
+}
+
+#follow-us a {
+    color: #c6c6c6;
+    text-decoration: none;
+}
+
+#follow-us img {
+    width: calc(24px + 0.2vw);
+    height: calc(24px + 0.2vw);
+    filter: brightness(0) invert(0.7);
 }
 
 .background {

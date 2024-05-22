@@ -1,20 +1,17 @@
 # Esta es una aplicacion usando Flask
 # que permite buscar artistas en Spotify y obtener información sobre ellos.
-
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
-
-from PRY2AYED20.src.recommendation_system import RecommendationSystem
-from ScriptsSecundarios.datasearcher import scope
-
 import spotipy
+import os
+import sys
 from flask import Flask, url_for
 from flask import request, render_template, jsonify
 from flask_cors import CORS
 from flask_cors import cross_origin
 from spotipy import SpotifyOAuth
+from PRY2AYED20.src.recommendation_system import RecommendationSystem
+from ScriptsSecundarios.datasearcher import scope
 
+sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 
 app = Flask(__name__)
 CORS(app)
@@ -24,7 +21,6 @@ recommendation_system = RecommendationSystem()
 
 @app.route('/')
 def index():
-
     css_url = url_for('static', filename='style.css')
     favicon_url = url_for('static', filename='static/favicon/apple-touch-icon.png')
     return render_template('index.html', css_url=css_url, favicon_url=favicon_url)
@@ -47,8 +43,7 @@ def resultados():
         top_tracks_urls = [track['external_urls']['spotify'] for track in top_tracks]
 
         artist_data = {'name': artist_name, 'image_url': artist['images'][0]['url'], 'top_tracks': top_tracks_names,
-                       'top_tracks_urls': top_tracks_urls,
-                       'genre': artist['genres'][0] if artist['genres'] else None}
+                       'top_tracks_urls': top_tracks_urls, 'genre': artist['genres'][0] if artist['genres'] else None}
     else:
         artist_data = {'name': artist_name, 'image_url': None, 'message': "Artist not found"}
 
@@ -100,8 +95,7 @@ def search():
         top_tracks_urls = [track['external_urls']['spotify'] for track in top_tracks]
 
         return jsonify({'term': artist_name, 'image_url': artist['images'][0]['url'], 'top_tracks': top_tracks_names,
-                        'top_tracks_urls': top_tracks_urls,
-                        'genre': artist['genres'][0] if artist['genres'] else None})
+                        'top_tracks_urls': top_tracks_urls, 'genre': artist['genres'][0] if artist['genres'] else None})
     else:
         return jsonify({'term': artist_name, 'image_url': None, 'message': "Artist not found"})
 

@@ -8,10 +8,11 @@ from flask import request, render_template, jsonify
 from flask_cors import CORS
 from flask_cors import cross_origin
 from spotipy import SpotifyOAuth
-from PRY2AYED20.src.recommendation_system import RecommendationSystem
-from ScriptsSecundarios.datasearcher import scope
 
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
+
+from PRY2AYED20.src.recommendation_system import RecommendationSystem
+from ScriptsSecundarios.datasearcher import scope
 
 app = Flask(__name__)
 CORS(app)

@@ -31,6 +31,91 @@ class RecommendationSystem:
         password = "69W0amO7JsyNTTrsb506RR_6hUBxlzfZTPM-znz-Unw"
         self.driver = GraphDatabase.driver(uri, auth=(username, password))
 
+
+    def add_artist(self, artist_name, style, mood, genre, location, popularSong, influencedBy, collaboratedWith, decade):
+        if self.artist_exists_in_database(artist_name):
+            print(f"Artist {artist_name} already exists in the database.")
+            return
+        with self.driver.session() as session:
+            query = """
+                CREATE (a:Artist {name: $name, style: $style, mood: $mood, genre: $genre, location: $location, popularSong: $popularSong, influencedBy: $influencedBy, collaboratedWith: $collaboratedWith, decade: $decade})
+                """
+            session.run(query, name=artist_name, style=style, mood=mood, genre=genre, location=location, popularSong=popularSong, influencedBy=influencedBy, collaboratedWith=collaboratedWith, decade=decade)
+
+            # COLLABORATED_WITH relationship
+            query = """
+                MATCH (a1:Artist {name: $name}), (a2:Artist)
+                WHERE a2.name IN a1.collaboratedWith
+                CREATE (a1)-[:COLLABORATED_WITH]->(a2)
+                CREATE (a2)-[:COLLABORATED_WITH]->(a1)
+                """
+            session.run(query, name=artist_name)
+
+            # SAME_LOCATION relationship
+            query = """
+                MATCH (a1:Artist {name: $name}), (a2:Artist)
+                WHERE a1.location = a2.location
+                CREATE (a1)-[:SAME_LOCATION]->(a2)
+                CREATE (a2)-[:SAME_LOCATION]->(a1)
+                """
+            session.run(query, name=artist_name)
+
+            # INFLUENCED_BY relationship
+            query = """
+                MATCH (a1:Artist {name: $name}), (a2:Artist)
+                WHERE a2.name IN a1.influencedBy
+                CREATE (a1)-[:INFLUENCED_BY]->(a2)
+                CREATE (a2)-[:INFLUENCED_BY_REVERSE]->(a1)
+                """
+            session.run(query, name=artist_name)
+
+            # SAME_STYLE relationship
+            query = """
+                MATCH (a1:Artist {name: $name}), (a2:Artist)
+                WHERE a1.style = a2.style
+                CREATE (a1)-[:SAME_STYLE]->(a2)
+                CREATE (a2)-[:SAME_STYLE]->(a1)
+                """
+            session.run(query, name=artist_name)
+
+            # SAME_DECADE relationship
+            query = """
+                MATCH (a1:Artist {name: $name}), (a2:Artist)
+                WHERE a1.decade = a2.decade
+                CREATE (a1)-[:SAME_DECADE]->(a2)
+                CREATE (a2)-[:SAME_DECADE]->(a1)
+                """
+            session.run(query, name=artist_name)
+
+            # SAME_MOOD relationship
+            query = """
+                MATCH (a1:Artist {name: $name}), (a2:Artist)
+                WHERE a1.mood = a2.mood
+                CREATE (a1)-[:SAME_MOOD]->(a2)
+                CREATE (a2)-[:SAME_MOOD]->(a1)
+                """
+            session.run(query, name=artist_name)
+
+            # SAME_GENRE relationship
+            query = """
+                MATCH (a1:Artist {name: $name}), (a2:Artist)
+                WHERE a1.genre = a2.genre
+                CREATE (a1)-[:SAME_GENRE]->(a2)
+                CREATE (a2)-[:SAME_GENRE]->(a1)
+                """
+            session.run(query, name=artist_name)
+
+    def delete_artist(self, artist_name):
+        if not self.artist_exists_in_database(artist_name):
+            print(f"Artist {artist_name} does not exist in the database.")
+            return
+        with self.driver.session() as session:
+            query = """
+                    MATCH (a:Artist {name: $name})
+                    DETACH DELETE a
+                    """
+            session.run(query, name=artist_name)
+
     def artist_exists_in_database(self, artist_name):
         with self.driver.session() as session:
             query = """
@@ -68,3 +153,34 @@ class RecommendationSystem:
 
             similar_artists.sort(key=lambda x: x[1], reverse=True)
             return [artist for artist, _ in similar_artists[:3]]
+
+def main():
+    rs = RecommendationSystem()
+
+    while True:
+        print("1. Add an artist")
+        print("2. Delete an artist")
+        print("3. Exit")
+        choice = input("Choose an option: ")
+
+        if choice == "1":
+            artist_name = input("Enter the artist's name: ")
+            style = input("Enter the artist's style: ")
+            mood = input("Enter the artist's mood: ")
+            genre = input("Enter the artist's genre: ")
+            location = input("Enter the artist's location: ")
+            popularSong = input("Enter the artist's popular song: ")
+            influencedBy = input("Enter who the artist is influenced by: ")
+            collaboratedWith = input("Enter who the artist collaborated with: ")
+            decade = input("Enter the artist's active decade: ")
+            rs.add_artist(artist_name, style, mood, genre, location, popularSong, influencedBy, collaboratedWith, decade)
+        elif choice == "2":
+            artist_name = input("Enter the name of the artist to delete: ")
+            rs.delete_artist(artist_name)
+        elif choice == "3":
+            break
+        else:
+            print("Invalid option. Please try again.")
+
+if __name__ == "__main__":
+    main()

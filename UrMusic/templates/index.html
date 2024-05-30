@@ -25,7 +25,8 @@
                 contentType: 'application/json',
                 data: JSON.stringify({term: artist_name}),
                 success: function (data) {
-                    window.location.href = 'http://localhost:5000/resultados?artist=' + encodeURIComponent(data.term);
+                    var baseUrl = window.location.protocol + '//' + window.location.host;
+                    window.location.href = baseUrl + '/resultados?artist=' + encodeURIComponent(data.term);
                 }
             });
         });

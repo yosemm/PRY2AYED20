@@ -8,7 +8,7 @@ $(document).ready(function () {
         data: JSON.stringify({artist: artist_name}),
         success: function (data) {
             console.log(data);
-            if (data.length > 0) {  // Check if the server responded with a list of recommended artists
+            if (data.length > 0) {  // Verificar si hay recomendaciones
                 $('#feedback').show();
                 $('#satisfaction-feedback').show();
                 var recommendationsDiv = $('.card-container');
@@ -52,7 +52,7 @@ $(document).ready(function () {
                     });
                 });
             } else {
-                // Display the error image
+                // Si no hay recomendaciones, mostrar mensaje
                 $('body').css('margin-top', '1%');
                 $('#no-recommendations').show();
             }

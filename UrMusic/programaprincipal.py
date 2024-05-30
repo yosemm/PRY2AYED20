@@ -24,7 +24,6 @@ recommendation_system = RecommendationSystem()
 basedir = os.path.abspath(os.path.dirname(__file__))
 db_path = os.path.join(basedir, 'databases/satisfactionDatabase.db')
 
-# Ensure the directory exists before creating the database file
 os.makedirs(os.path.dirname(db_path), exist_ok=True)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_path
@@ -82,11 +81,11 @@ def index():
 def resultados():
     artist_name = request.args.get('artist')
 
-    # Check if the artist exists in the Neo4j database.
+    # Verificar que el artista existe en nuestra base de datos.
     artist_exists = recommendation_system.artist_exists_in_database(artist_name)
 
     if artist_exists:
-        # If the artist exists, get the artist data from the Spotify API.
+        # Si el artista existe, obtener la data del API de Spotify
         auth_manager = SpotifyOAuth(scope=scope)
         spotify_object = spotipy.Spotify(auth_manager=auth_manager)
 
@@ -157,4 +156,4 @@ def search():
 
 
 if __name__ == '__main__':
-    app.run(port=5000)
+    app.run(host='localhost', port=5000)

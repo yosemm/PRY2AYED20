@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ead870e4-2255-4354-a0a8-ac021f2392d5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UrMusic/static/Icons/error404.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRY2AYED20/src/recommendation_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/PRY2AYED20/src/recommendation_system.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrMusic/.cache" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrMusic/databases/satisfactionDatabase.db" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/databases/satisfactionDatabase.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrMusic/programaprincipal.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/programaprincipal.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrMusic/static/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/static/main2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrMusic/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/static/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrMusic/templates/resultados.html" beforeDir="false" afterPath="$PROJECT_DIR$/UrMusic/templates/resultados.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +137,7 @@
       <workItem from="1716349986708" duration="4000" />
       <workItem from="1716349999261" duration="10969000" />
       <workItem from="1717055224944" duration="268000" />
-      <workItem from="1717055519655" duration="10435000" />
+      <workItem from="1717055519655" duration="12814000" />
     </task>
     <servers />
   </component>
@@ -154,7 +149,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PRY2AYED20$main.coverage" NAME="main Coverage Results" MODIFIED="1717060698067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PRY2AYED20/src" />
-    <SUITE FILE_PATH="coverage/PRY2AYED20$programaprincipal.coverage" NAME="programaprincipal Coverage Results" MODIFIED="1717066007775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UrMusic" />
+    <SUITE FILE_PATH="coverage/PRY2AYED20$programaprincipal.coverage" NAME="programaprincipal Coverage Results" MODIFIED="1717068269022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UrMusic" />
     <SUITE FILE_PATH="coverage/PRY2AYED20$recommendation_system.coverage" NAME="recommendation_system Coverage Results" MODIFIED="1717062147171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PRY2AYED20/src" />
   </component>
 </project>

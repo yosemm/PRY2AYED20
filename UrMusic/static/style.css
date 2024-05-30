@@ -283,6 +283,9 @@ h3 {
     font-family: 'Space Grotesk', sans-serif;
     font-size: calc(14px + 0.2vw);
     padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #satisfaction-feedback a {

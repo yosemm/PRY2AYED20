@@ -50,9 +50,15 @@
 <h3>Te recomendamos...</h3>
 
 <div class="card-container">
-    <!-- Este es un contenedor de las cartas de artistas. Las cartas se agregan utilizando el script de js y el programa Python -->
+    <!-- Las cartas se crean en base al codigo python y javascript  -->
+    <div id="no-recommendations" style="display: none;">
+        <img src="{{ url_for('static', filename='Icons/error404.jpg') }}" alt="Artist not found" style="width: 400px;">
+        <h2>Lo sentimos. No hay recomendaciones para este artista.</h2>
+    </div>
 </div>
-<div id="feedback">
+
+
+<div id="feedback" style="display: none;">
     <p>¿Te gustó esta recomendación?</p>
     <button id="like-button"><img src="{{ url_for('static', filename='Icons/like-svgrepo-com.svg') }}" alt="Like"
                                   style="width: 37px; filter: brightness(0) invert(1);"></button>
@@ -61,10 +67,12 @@
                                      alt="Dislike" style="width: 37px; filter: brightness(0) invert(1);"></button>
     <span id="dislike-counter">0</span>
 </div>
-<div id="satisfaction-feedback" style="display: flex; justify-content: center; align-items: center;">
+<div id="satisfaction-feedback" style="display: none;">
     <span id="satisfaction-percentage">Porcentaje de satisfacción: </span>
     <span style="margin: 0 10px;">|</span>
-    <a id="feedback-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdtmFI298e3GBdJomR-QOW_2RU3-c6aVMdPjMpGArXKKWuDJw/viewform?usp=sf_link" target="_blank">Enviar comentario</a>
+    <a id="feedback-link"
+       href="https://docs.google.com/forms/d/e/1FAIpQLSdtmFI298e3GBdJomR-QOW_2RU3-c6aVMdPjMpGArXKKWuDJw/viewform?usp=sf_link"
+       target="_blank">Enviar comentario</a>
 </div>
 </body>
 </html>

@@ -82,23 +82,27 @@ def index():
 def resultados():
     artist_name = request.args.get('artist')
 
-    # Usar el API de Spotify para obtener información del artista.
-    auth_manager = SpotifyOAuth(scope=scope)
-    spotify_object = spotipy.Spotify(auth_manager=auth_manager)
+    # Check if the artist exists in the Neo4j database.
+    artist_exists = recommendation_system.artist_exists_in_database(artist_name)
 
-    search_results = spotify_object.search(artist_name, 1, 0, "artist")
+    if artist_exists:
+        # If the artist exists, get the artist data from the Spotify API.
+        auth_manager = SpotifyOAuth(scope=scope)
+        spotify_object = spotipy.Spotify(auth_manager=auth_manager)
 
-    if search_results['artists']['items']:
+        search_results = spotify_object.search(artist_name, 1, 0, "artist")
         artist = search_results['artists']['items'][0]
         top_tracks = spotify_object.artist_top_tracks(artist['id'])['tracks'][:2]
         top_tracks_names = [track['name'] for track in top_tracks]
         top_tracks_urls = [track['external_urls']['spotify'] for track in top_tracks]
 
         artist_data = {'name': artist_name, 'image_url': artist['images'][0]['url'], 'top_tracks': top_tracks_names,
-                       'top_tracks_urls': top_tracks_urls, 'genre': artist['genres'][0] if artist['genres'] else None}
+                       'top_tracks_urls': top_tracks_urls, 'genre': artist['genres'][0] if artist['genres'] else None, 'found': True}
     else:
-        artist_data = {'name': artist_name, 'image_url': None, 'message': "Artist not found"}
+        # If the artist doesn't exist, set the 'found' key to False.
+        artist_data = {'name': artist_name, 'image_url': None, 'message': "Artist not found", 'found': False}
 
+    print(artist_data)  # Add this line
     css_url = url_for('static', filename='style.css')
     favicon_url = url_for('static', filename='favicon/apple-touch-icon.png')
     favicon_32_url = url_for('static', filename='favicon/favicon-32x32.png')
@@ -122,7 +126,7 @@ def recommend():
     # Obtener recomendaciones de artistas similares.
     artist_name = request.json['artist']
     similar_artists = recommendation_system.get_similar_artists(artist_name)
-    similar_artist_names = [artist.name for artist in similar_artists]
+    similar_artist_names = [artist for artist in similar_artists]
     return jsonify(similar_artist_names)
 
 

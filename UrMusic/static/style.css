@@ -12,7 +12,16 @@ body {
     color: white;
     box-sizing: border-box;
 }
-
+@media screen and (max-width: 1799px) {
+    body.large-screen {
+        margin-top: 10%;
+    }
+}
+@media screen and (min-width: 1800px) {
+    body.large-screen {
+        margin-top: 1%;
+    }
+}
 
 h1, h2 {
     color: #f0f0f0;

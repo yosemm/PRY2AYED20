@@ -1,8 +1,8 @@
 $(document).ready(function () {
     var artist_name = new URL(window.location.href).searchParams.get('artist');
-
+    var baseUrl = window.location.protocol + '//' + window.location.host;
     $.ajax({
-        url: 'http://localhost:5000/api/recommend',
+        url: baseUrl + '/api/recommend',
         method: 'POST',
         contentType: 'application/json',
         data: JSON.stringify({artist: artist_name}),
@@ -18,7 +18,7 @@ $(document).ready(function () {
                     var artistNameNoSpaces = artistName.replace(" ", "");
 
                     $.ajax({
-                        url: 'http://localhost:5000/search',
+                        url: baseUrl + '/search',
                         method: 'POST',
                         contentType: 'application/json',
                         data: JSON.stringify({term: artistNameNoSpaces}),

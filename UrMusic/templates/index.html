@@ -19,8 +19,9 @@
 
             let artist_name = $('#site-search').val();
 
+            var baseUrl = window.location.protocol + '//' + window.location.host;
             $.ajax({
-                url: 'http://localhost:5000/search',
+                url: baseUrl + '/search',
                 method: 'POST',
                 contentType: 'application/json',
                 data: JSON.stringify({term: artist_name}),

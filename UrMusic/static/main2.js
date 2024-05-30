@@ -2,7 +2,7 @@ $(document).ready(function () {
     var artist_name = new URL(window.location.href).searchParams.get('artist');
 
     $.ajax({
-        url: 'http://127.0.0.1:5000/api/recommend',
+        url: 'http://localhost:5000/api/recommend',
         method: 'POST',
         contentType: 'application/json',
         data: JSON.stringify({artist: artist_name}),
@@ -18,7 +18,7 @@ $(document).ready(function () {
                     var artistNameNoSpaces = artistName.replace(" ", "");
 
                     $.ajax({
-                        url: 'http://127.0.0.1:5000/search',
+                        url: 'http://localhost:5000/search',
                         method: 'POST',
                         contentType: 'application/json',
                         data: JSON.stringify({term: artistNameNoSpaces}),

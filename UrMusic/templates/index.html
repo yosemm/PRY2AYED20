@@ -20,12 +20,12 @@
             let artist_name = $('#site-search').val();
 
             $.ajax({
-                url: 'http://127.0.0.1:5000/search',
+                url: 'http://localhost:5000/search',
                 method: 'POST',
                 contentType: 'application/json',
                 data: JSON.stringify({term: artist_name}),
                 success: function (data) {
-                    window.location.href = 'http://127.0.0.1:5000/resultados?artist=' + encodeURIComponent(data.term);
+                    window.location.href = 'http://localhost:5000/resultados?artist=' + encodeURIComponent(data.term);
                 }
             });
         });
@@ -59,13 +59,9 @@
 </header>
 
 <form action="">
-    <input aria-label="Busca artistas o canciones preferidas" id="site-search" name="q"
-           placeholder="Ingresa tu artista preferido o canción..."
+    <input aria-label="Busca un artista" id="site-search" name="q"
+           placeholder="Ingresa tu artista preferido..."
            type="search">
-    <label for="search-type"></label><select name="search_type" id="search-type">
-        <option value="artist">Artista</option>
-        <option value="song">Canción</option>
-    </select>
     <button type="submit">
         <img alt="Search" src="../static/Icons/search-icon.svg" style="height: 24px;">
     </button>

@@ -29,6 +29,10 @@ User: neo4j
 URL: neo4j+s://ad86f838.databases.neo4j.io
 Contraseña: 69W0amO7JsyNTTrsb506RR_6hUBxlzfZTPM-znz-Unw
 
+**Link del repositorio de GitHub**
+
+https://github.com/yosemm/PRY2AYED20
+
 ***¿Como correr el programa?:***
 
 1. Run el archivo programaprincipal.py. 

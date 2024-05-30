@@ -23,7 +23,8 @@ Para cambiar o agregar estilos de los componentes, es el archivo CSS que está e
 
 El script que genera los artistas con sus datos en la interfaz es el que está en UrMusic/static/main2.js
 
-Credenciales para la base de datos en Neo4j SandBox: 
+**Credenciales para la base de datos en Neo4j SandBox** 
+
 User: neo4j
 URL: neo4j+s://ad86f838.databases.neo4j.io
 Contraseña: 69W0amO7JsyNTTrsb506RR_6hUBxlzfZTPM-znz-Unw
